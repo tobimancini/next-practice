@@ -4,6 +4,7 @@ import classes from './page.module.css'
 import Image from "next/image";
 import { getMeal } from "@/lib/meals";
 import { notFound } from "next/navigation";
+import { deleteMeal } from "@/lib/actions";
 
 const SpecificMealPage = ({ params }) => {
 
